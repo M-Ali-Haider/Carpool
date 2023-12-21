@@ -8,7 +8,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path='/carpool' element={<SignUp />}></Route>
+        <Route path='/Carpool' element={<SignUp />}></Route>
         <Route path='/homepage' element={<Homepage/>}></Route>
         <Route path='/map' element={<Map/>}></Route>
       </Routes>
