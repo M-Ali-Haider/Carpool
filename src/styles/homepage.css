@@ -1,0 +1,124 @@
+.homepage{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: url(../assets/carpoolbg.webp);
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.homepage-helper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.homepage-shade{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.69) 100%);
+}
+.homepage-rest{
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.homepage-rest form{
+    height: 60px;
+    background: white;
+    border-radius: 36px;
+    overflow: hidden;
+    border: none;
+    opacity: 0.95;
+}
+.homepage-rest form input{
+    border: none;
+    border-right: 1px solid black;
+    height: 65%;
+    padding: 0px 15px;
+}
+.homepage-rest form input:nth-child(4),.homepage-rest form input:nth-child(6){
+    border: none;
+}
+.homepage-rest form input:focus{
+    outline: none;
+}
+.homepage-rest form select{
+    height: 100%;
+    padding: 0px 15px;
+    border: none;
+}
+.homepage-rest form button{
+    height: 100%;
+    padding: 0px 40px;
+    background-color: #006bd9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+.homepage-rest form button:hover{
+    background-color: #1c45ac;
+}
+.homepage-rest form button:active{
+    background-color: #0c2f8b;
+}
+.homepage-profile{
+    position: absolute;
+    top: 2%;
+    left: 1.5%;
+    padding: 12.5px 40px;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+@media (max-width:974px) {
+    .homepage-rest{
+        position: absolute;
+        top: 20%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homepage-rest form{
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 15px;
+    }
+    .homepage-rest form input{
+        width: 90%;
+        height: 60px;
+        border-right:none;
+        border-bottom:  1px solid black;
+        padding-left: 0px;
+    }
+    .homepage-rest form select{
+        width: 90%;
+        height: 60px;
+    }
+    .homepage-rest form button{
+        height: 60px;
+        border-radius: 30px;
+    }
+}
+
