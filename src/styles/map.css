@@ -1,0 +1,54 @@
+.map{
+    color: white;
+}
+.the-box{
+    position: fixed;
+    background-color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 300px;
+    border-top-left-radius:25px;
+    border-top-right-radius: 25px;
+    overflow: hidden;
+    transition: all 0.75s ease;
+}
+.the-box-smol{
+    height: 50px;
+}
+.box-unit{
+    width: 100%;
+    height: 56px;
+}
+.the-box-div::-webkit-scrollbar {
+   display: none;
+}
+.the-box-helper{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding-top: 35px;
+}
+.minimize{
+    position: absolute;
+    top: 2%;
+    right: 1%;
+    cursor: pointer;
+    transition: all 0.75s ease;
+}
+.maximize{
+    transform: rotate(180deg);
+}
+.minimize img{
+    height: 24px;
+}
+.the-box-div{
+    height: 100%;
+    overflow: scroll;
+}
+@media(max-width:700px){
+    .minimize{
+        top: 3%;
+        right: 3.5%;
+    }
+}

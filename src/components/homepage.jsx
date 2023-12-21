@@ -1,5 +1,6 @@
 import '../styles/homepage.css'
 import { useState } from 'react'
+import { Link } from 'react-router-dom';
 const Homepage = () =>{
     const [selectedOption,setSelectedOption] =useState('');
     return(
@@ -28,7 +29,9 @@ const Homepage = () =>{
                                 <input type="number" placeholder='No. of Passengers' />
                                 )
                             }
-                            <button className='homepage-btn' type='submit'>Search</button>
+                            <Link to="/map">
+                                <button className='homepage-btn' type='submit'>Search</button>
+                            </Link>
                         </form>
                     </div>
                 </div>
