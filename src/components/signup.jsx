@@ -15,7 +15,7 @@ const SignUp = () =>{
                     <input type="text" placeholder="Phone Number" />
                     <input type="text" placeholder="City" />
                 </div>
-                <Link to="/homepage">
+                <Link to="/Carpool/homepage">
                     <button className='signup-btn'>Sign Up</button>
                 </Link>
             </form>

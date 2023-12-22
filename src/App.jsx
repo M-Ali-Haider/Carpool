@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Routes>
         <Route path='/Carpool' element={<SignUp />}></Route>
-        <Route path='/homepage' element={<Homepage/>}></Route>
-        <Route path='/map' element={<Map/>}></Route>
+        <Route path='/Carpool/homepage' element={<Homepage/>}></Route>
+        <Route path='/Carpool/map' element={<Map/>}></Route>
       </Routes>
     </Router>
     </>

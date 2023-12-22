@@ -29,7 +29,7 @@ const Homepage = () =>{
                                 <input type="number" placeholder='No. of Passengers' />
                                 )
                             }
-                            <Link to="/map">
+                            <Link to="/Carpool/map">
                                 <button className='homepage-btn' type='submit'>Search</button>
                             </Link>
                         </form>
