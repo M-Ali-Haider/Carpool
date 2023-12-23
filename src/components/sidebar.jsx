@@ -1,3 +1,5 @@
+import SidebarUnit from './sidebarunit'
+import pfp from '../assets/pfp.png'
 import '../styles/sidebar.css'
 const Sidebar =({isSidebarOpen})=>{
     return(
@@ -5,13 +7,14 @@ const Sidebar =({isSidebarOpen})=>{
         <div className={`sidebar ${isSidebarOpen? '' : 'sidebar-closed'}`}>
             <div className="sidebar-helper">
                 <div className="sidebar-absolute-helper">
-                    <div>Bruh</div>
-                    <div>Bruh</div>
-                    <div>Bruh</div>
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
                 </div>
             </div>
         </div>
         </>
     )
 }
-export default Sidebar
+  export default Sidebar
