@@ -11,6 +11,16 @@ const Sidebar =({isSidebarOpen})=>{
                     <SidebarUnit   pfp={pfp}  />
                     <SidebarUnit   pfp={pfp}  />
                     <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
+                    <SidebarUnit   pfp={pfp}  />
                 </div>
             </div>
         </div>

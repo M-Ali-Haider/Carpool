@@ -9,6 +9,21 @@ const Notibar=({isNotibarOpen,openMsgBox})=>{
             <div className="notibar-helper">
                 <div className="notibar-absolute-helper">
                     <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
+                    <NotiUnit   pfp={pfp} msg={msg}  openMsgBox={openMsgBox}/>
                 </div>
             </div>
         </div>
