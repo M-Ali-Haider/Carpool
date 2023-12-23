@@ -18,6 +18,9 @@ const SignUp = () =>{
                 <Link to="/Carpool/homepage">
                     <button className='signup-btn'>Sign Up</button>
                 </Link>
+                <div className='hyperlink-div'>
+                    Already have an account ? <Link to="/Carpool/login"><span>Log In</span></Link>
+                </div>
             </form>
             <img src={carpool} alt="" />
         </div>

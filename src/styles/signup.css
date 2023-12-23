@@ -12,7 +12,6 @@ body{
     height: 75%; 
     border-radius: 25px;
     overflow: hidden;
-    border: 1px solid black;
 }
 .signup form{
     width: 100%;

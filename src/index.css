@@ -4,3 +4,18 @@
     font-family: roboto;
     box-sizing: border-box;
 }
+.hyperlink-div{
+    font-size: 14px;
+    margin-top: 10px;
+}
+.hyperlink-div span{
+    color: #0c2f8b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.hyperlink-div span:hover{
+    color: #1c45ac;
+}
+.hyperlink-div span:active{
+    color: #0c2f8b;
+}

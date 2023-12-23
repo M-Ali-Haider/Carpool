@@ -1,16 +1,34 @@
 import '../styles/homepage.css'
+import notification from '../assets/noti.svg'
+import Sidebar from './sidebar';
+import Notibar from './notibar';
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
 const Homepage = () =>{
     const [selectedOption,setSelectedOption] =useState('');
+    const [isSidebarOpen,setSidebarStatus]=useState(false);
+    const [isNotibarOpen,setNotibarStatus]=useState(false);
+    const handleSidebarStatus=()=>{
+        setSidebarStatus(!isSidebarOpen);
+        setNotibarStatus(false);
+    }
+    const handleNotibarStatus=()=>{
+        setNotibarStatus(!isNotibarOpen);
+        setSidebarStatus(false);
+    }
     return(
-        <>
+        <>  
+            <div className="homepage-profile" onClick={handleSidebarStatus}>
+                Shayan Hassan Abbasi
+            </div>
+            <div className="notification-icon" onClick={handleNotibarStatus}>
+                <img src={notification} alt="" />
+            </div>
+            <Sidebar isSidebarOpen={isSidebarOpen} />
+            <Notibar isNotibarOpen={isNotibarOpen}/>
             <div className="homepage">
                 <div className="homepage-helper">
                     <div className="homepage-shade"></div>
-                    <div className="homepage-profile">
-                        Shayan Hassan Abbasi
-                    </div>
                     <div className="homepage-rest">
                         <form action="">
                             <input type="text" placeholder='Pickup Location' />

@@ -9,7 +9,7 @@ const Map=()=>{
     return(
         <>
         <div className="map">
-            maps page mlao
+            
         </div>
         <div className={`the-box ${isBoxOpen ? '' : 'the-box-smol'}`}>
             <div className="the-box-helper">
@@ -34,3 +34,6 @@ const Map=()=>{
     )
 }
 export default Map
+
+
+
